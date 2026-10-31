@@ -1,6 +1,6 @@
 cask "splat" do
-  version "1.0.2"
-  sha256 "5926959641e1c9d877019ebef1dd6b0c5f8bb0fc25d1f12a0efac1c1517d310a"
+  version "1.0.3"
+  sha256 "135008ab55d486bb4eedf1fcac98fcee16e5f970c175dbab3f01abe01a35bb39"
 
   url "https://github.com/sventmueller/splat/releases/download/v#{version}/Splat-#{version}.dmg"
   name "Splat"
@@ -12,6 +12,7 @@ cask "splat" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
