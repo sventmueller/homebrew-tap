@@ -1,6 +1,6 @@
 cask "splat" do
-  version "1.0.7"
-  sha256 "a76b460f7575c9003423db706272488ba0c4c1599853685f37fbca543247fb47"
+  version "1.0.8"
+  sha256 "7c931b00360ef8a5eb9602be8615339b1a745276d7359878f2ec512854b44a3e"
 
   url "https://github.com/sventmueller/splat/releases/download/v#{version}/Splat-#{version}.dmg"
   name "Splat"
