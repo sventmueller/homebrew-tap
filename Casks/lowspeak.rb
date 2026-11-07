@@ -1,6 +1,6 @@
 cask "lowspeak" do
-  version "1.0.1"
-  sha256 "a50ab540455cac49ffe7ef9cc0342d07ddbed507ba758d6f14401ee12ed43ddd"
+  version "1.0.3"
+  sha256 "78ad353f193635714b4d4278e251cafa332b5dfbfed8a492d4631c497d40380e"
 
   url "https://github.com/sventmueller/lowspeak/releases/download/v#{version}/Lowspeak-#{version}.dmg"
   name "Lowspeak"
