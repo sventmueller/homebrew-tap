@@ -1,6 +1,6 @@
 cask "splat" do
-  version "1.0.11"
-  sha256 "4682e9298b671724ff5beb1c8a840234e67fca1972d7dfa2dbf5b619dd28eaf1"
+  version "1.0.12"
+  sha256 "2d8836a973e89a7ffe7e0cab16b349bfce23f0aed0f0c876f23ea8ad43ea6c10"
 
   url "https://github.com/sventmueller/splat/releases/download/v#{version}/Splat-#{version}.dmg"
   name "Splat"
@@ -18,8 +18,12 @@ cask "splat" do
   app "Splat.app"
 
   zap trash: [
+    "~/Library/Application Scripts/local.splat",
+    "~/Library/Application Scripts/local.splat.decoder",
     "~/Library/Application Support/Splat",
     "~/Library/Caches/local.splat",
+    "~/Library/Containers/local.splat",
+    "~/Library/Containers/local.splat.decoder",
     "~/Library/HTTPStorages/local.splat",
     "~/Library/Preferences/local.splat.plist",
     "~/Library/Saved Application State/local.splat.savedState",
