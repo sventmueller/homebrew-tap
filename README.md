@@ -1,7 +1,6 @@
 # sventmueller/tap
 
-Homebrew casks for [Splat](https://github.com/sventmueller/splat), the Markdown editor for macOS with a live, editable
-preview, and [Lowspeak](https://github.com/sventmueller/lowspeak), dictation from the menu bar.
+Homebrew casks for [Splat](https://github.com/sventmueller/splat), the Markdown editor for macOS with a live, editable preview, [Lowspeak](https://github.com/sventmueller/lowspeak), dictation from the menu bar, and [Dango](https://github.com/sventmueller/dango), the editor for working with coding agents.
 
 ## Splat
 
@@ -22,3 +21,11 @@ brew install --cask sventmueller/tap/lowspeak
 Lowspeak needs macOS 14 or later on Apple Silicon or Intel. From version 1.0.1 on, it updates itself through **Check for
 Updates…** in its menu; `brew upgrade --cask lowspeak` installs new versions of an older copy as well. `brew uninstall
 --zap --cask lowspeak` also removes its settings, models, logs and caches; the API keys stay in the login keychain.
+
+## Dango
+
+```sh
+brew install --cask sventmueller/tap/dango
+```
+
+Dango needs macOS 14 or later on Apple Silicon or Intel. It updates itself through **Dango › Check for Updates…**; `brew upgrade --cask dango` installs new versions of an older copy as well. `brew uninstall --zap --cask dango` also removes its settings, caches and the worktrees of its agents' threads.
