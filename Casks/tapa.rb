@@ -1,8 +1,8 @@
 cask "tapa" do
-  version "0.1.0"
-  sha256 "c3bae4ada69d38bc2b8d9534a041a6e5c6f2f7c1bbe8306a67a4de184a1f0da0"
+  version "1.0.0"
+  sha256 "1c84f7464b54eff425b4d1fb7c187285771ffe2fd49b0f8126af86c5e5946e46"
 
-  url "https://github.com/sventmueller/tapa/releases/download/v#{version}/Tapa-#{version}.zip"
+  url "https://github.com/sventmueller/tapa/releases/download/v#{version}/Tapa-#{version}.dmg"
   name "Tapa"
   desc "Fast, native terminal with workspaces and agents"
   homepage "https://github.com/sventmueller/tapa"
