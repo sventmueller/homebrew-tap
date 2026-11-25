@@ -1,6 +1,6 @@
 cask "tapa" do
-  version "1.0.1"
-  sha256 "035334ee3d5a7ddd9c4c2eda24880a5f3d494cb95198bab8c181bfeafe21a33a"
+  version "1.0.3"
+  sha256 "f099d62809a82883f4dada7b7493b1b2b6360427fcd171facafe2282bd913ca5"
 
   url "https://github.com/sventmueller/tapa/releases/download/v#{version}/Tapa-#{version}.dmg"
   name "Tapa"
