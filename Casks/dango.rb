@@ -1,6 +1,6 @@
 cask "dango" do
-  version "0.3.4"
-  sha256 "e21a4713ce8196a9ebdcbc54f850dfaf90b0c4845ebb6c793671d64c71a53781"
+  version "1.0.3"
+  sha256 "f9210afb80375fe8183f2fc3dc566f25e7add3946a231d12f3f4c17a716bda29"
 
   url "https://github.com/sventmueller/dango/releases/download/v#{version}/Dango-#{version}.dmg"
   name "Dango"
